@@ -12,7 +12,7 @@
 
 > Blockquote
 
-> * List
+* List
 * List
 * List
 
@@ -31,3 +31,5 @@ Horizontal rule:
 print '3 backticks or'
 print 'indent 4 spaces'
 ```
+
+Hi, I am using the vscode
