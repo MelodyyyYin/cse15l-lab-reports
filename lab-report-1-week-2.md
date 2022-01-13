@@ -1,2 +1,2 @@
-![my Image](Screen Shot.png)
+![my Image](pic1.png)
 
