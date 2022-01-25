@@ -2,7 +2,7 @@
 
 ## - Installing VScode
 ![Image](install.png)
-> - go to the vscode website
+> - go to the vscode website [vscode](https://code.visualstudio.com/)
 > - download the right version and install it on your computer
 
 ![Image](vscode.png)
@@ -50,8 +50,19 @@ Here are some commands!
 
 ---
 ## - Optimizing Remote Running
+
+![Image](last1.png)
+> - enter command `ssh cs15lwi22aee@ieng6.ucsd.edu "ls -la"`(I use 41 keystrokes to run this command, but we could use up head arrow to run the same command next time to save some time)
+
+> - after we setting the ssh key, we can run the command more easily on the remote server from the client
+
+![Image](last2.png)
+> - this one I use 12 keystrokes by using the up head arrow to run the command
+
+
 ![Image](remote.png)
-> - after we setting the ssh key, we can run the command more easily on the server from the client
+> - I use 69 keystrokes on executing the java file
+> = the `;` could help us to type all the command first and run it one by one
 
 
 ---
