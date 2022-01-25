@@ -62,7 +62,7 @@ Here are some commands!
 
 ![Image](remote.png)
 > - I use 69 keystrokes on executing the java file
-> = the `;` could help us to type all the command first and run it one by one
+> - the `;` could help us to type all the command first and run it one by one
 
 
 ---
