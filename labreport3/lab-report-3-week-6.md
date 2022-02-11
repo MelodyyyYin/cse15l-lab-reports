@@ -5,7 +5,7 @@
 
 ![Image](1.1.png)
 ![Image](1.2.png)
-- I use command `scp -r . cs15lwi22aee@ieng6.ucsd.edu:~/markdown-parse` to copy my whole markdown-parse directory to your ieng6 account.
+- I use command `scp -r . cs15lwi22aee@ieng6.ucsd.edu:~/markdown-parse` to copy my whole markdown-parse directory to my ieng6 account.
 
 
 > 2. Show logging into your ieng6 account after doing this and compiling and running the tests for your repository
