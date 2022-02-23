@@ -18,9 +18,9 @@
 
 > 3. Show (like in the last step of the first lab) combining `scp`, `;`, and `ssh` to copy the whole directory and run the tests in one line.
 
-![Image](3.1.png)
-- I use the command `scp -r . cs15lwi22aee@ieng6.ucsd.edu:~/markdown-parse;ssh cs15lwi22aee@ieng6.ucsd.edu` to run `scp` and `ssh` in one line
+![Image](3.3.png)
+![Image](3.4.png)
+- I use the command `scp -r . cs15lwi22aee@ieng6.ucsd.edu:~/markdown-parse;ssh cs15lwi22aee@ieng6.ucsd.edu "cd markdown-parse;javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java;java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest"` to run all previous command in one line. And it run successfully.
 
-![Image](3.2.png)
-- After log in to my ieng6 account, I compile and run test in one line, the command is `cd markdown-parse;javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java;java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest`. It's compiled and run successfully.
+
 
