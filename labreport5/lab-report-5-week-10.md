@@ -17,7 +17,8 @@
 - The expect output: `[]`
 
 - If we want to fix this problem in the given impelmentaiton code, we need to chack if there is `!` before `nextOpenBracket`. If yes, that's means this is not a link, it's an image, we set `nextOpenBracket` to -1.
-![Image](change.png)
+![Image](change3.png)
+- We could add fixed code at line 69.
 
 
 
@@ -35,4 +36,5 @@
 - The expect output: `[]`
 
 - If we want to fix this problem in the given impelmentaiton code, we need to add another if statement and create 2 extra variable to store the extra braket and initially set them to `-1`. Between the first bracket and last bracket, if we find extra braket, we store it in a variable and use for loop to find the next close braket between the extra open braket's index to the last close bracket. After forloop done, if the close braket varaible still `-1`, that means we do not have symmerty brakets and we need return immediately. 
-![Image](change1.png)
+![Image](change3.png)
+- We also could add fixed code at line 69.
